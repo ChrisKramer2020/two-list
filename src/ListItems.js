@@ -1,6 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { AppContainer } from 'react-hot-loader'
-import App from './components/App'
+import React, { Component } from 'react'
 
-import './styles/screen.scss'
+class ListItem extends Component {
+
+  render () {
+    const done = this.props.value
+
+    return items className={`${styles.root} ${done}`}
+    onClick
+  }
+
+}
+
+export default ListItem
